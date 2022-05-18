@@ -1,4 +1,4 @@
-alert(`Benvenuto!`)
+alert(`Benvenuto nel generatore di password!`)
 
 const nomeUtente = prompt ("Come ti chiami?")
 
@@ -9,4 +9,4 @@ const colorepreferitoUtente = prompt ("Qual'è il tuo colore preferito?")
 
 const spanDatiUtente = document.getElementById("dati-utente")
 
-spanDatiUtente.innerHTML = (`${nomeUtente} ${cognomeUtente} ${colorepreferitoUtente} 22`);
+spanDatiUtente.innerHTML = (`<strong class="text-danger">${nomeUtente}${cognomeUtente}${colorepreferitoUtente}22</strong>`);
